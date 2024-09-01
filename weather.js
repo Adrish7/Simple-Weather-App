@@ -1,7 +1,7 @@
 const weatherForm = document.querySelector(".weatherForm");
 const cityInput = document.querySelector(".cityInput");
 const card = document.querySelector(".card");
-const apiKey = "ea200bdb9962074bce88ec10fb94f39d";
+const apiKey = "";
 
 weatherForm.addEventListener("submit",async event => {
   // forms have a default behaviour to reload the page when a submit button is clicked, the following line prevents that
